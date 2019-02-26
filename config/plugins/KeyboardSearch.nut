@@ -74,6 +74,7 @@ class KeyboardSearch
 
 			if ( _my_config["results_mode"] == "Show Results" )
 			{
+				fe.list.search_rule = "";
 				local sel_emu = fe.game_info( Info.Emulator );
 				local sel_game = fe.game_info( Info.Name );
 
